@@ -1,0 +1,5 @@
+name: Che
+description: |
+  Eclipse Che is a developer workspace server and cloud IDE
+version: 0.0.1
+category: Rancher Services

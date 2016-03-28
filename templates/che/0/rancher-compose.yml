@@ -1,0 +1,13 @@
+.catalog:
+  name: "che"
+  version: "v0.0.1"
+  description: "ExlipseChe"
+  questions:
+  - variable: "scale"
+    label: "Nodes"
+    description: "Number of nodes"
+    required: true
+    default: 1
+    type: "int"
+che:
+  scale: "${scale}"
