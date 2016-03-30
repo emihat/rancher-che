@@ -4,6 +4,7 @@ che:
   tty: true
   labels:
     "Version": "v0.0.1"
+    io.rancher.scheduler.affinity:host_label: spec=high
   ports:
     - "8080:8080"
     - "49152-49162:49152-49162"
